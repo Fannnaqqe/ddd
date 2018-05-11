@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+	<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+<header>
+	<div class="hd_top">
+    	<i class="iconfont fl">&#xe682;</i>
+    	<p>@JessA69</p>
+    </div>
+</header>
+<div class="banner">
+	<div class="bd_top">
+    <img class="a" src="img/timg.jpg" alt="">
+    <img class="b" src="img/tim.jpg" alt="">
+    <p>Jesics Alba</p>
+    <i class="iconfont">&#xe61f;<span>Los Angeles, CA</span></i>
+    </div>
+    <div class="bd_bottom">
+    <ul>
+    <li class="a">Followers</li>
+    <li class="b">4017</li>
+    <li class="c">Following</li>
+    <li class="d">54</li>
+    <li class="e">Photos</li>
+    <li class="f">153</li>
+    </ul>
+    </div>
+    <div class="bd_right">
+    <i class="iconfont">&#xe67f;</i>
+    <span>Follow</span>
+    </div>
+
+</div>
+<div class="center">
+	<ul class="clearfix">
+	<li><img src="img/t1.png" align=""></li>
+    <li><img src="img/t2.png" align=""></li>
+    <li class="a"><img src="img/t3.png" align=""></li>
+    <li><img src="img/t4.png" align=""></li>
+    <li><img src="img/t5.png" align=""></li>
+    <li class="b"><img src="img/t6.png" align=""></li>
+	</ul>
+
+</div>
+<div class="bottom clearfix">
+	<ul>
+    <li><i class="iconfont">&#xe620;</i></li>
+    <li><i class="iconfont">&#xe65d;</i></li>
+    <li><i class="iconfont">&#xe6ec;</i></li>
+    <li><i class="iconfont">&#xe6ed;</i></li>
+    <li><i class="iconfont">&#xe61b;</i></li>
+    
+    </ul>
+</div>
+</body>
+</html>
